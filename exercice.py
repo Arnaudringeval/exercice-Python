@@ -11,5 +11,5 @@ table = int(input("De Quelle nombre voulez vous la table de multiplication?"))
 i = 0
 while i < 10:
     i+= 1
-    if i < 11:
+    if i <= 10:
         print(i * table)
