@@ -1,6 +1,6 @@
 age = int(input("Quel est votre age?"))
 
-if age > 18:
+if age >= 18:
     print("Vous êtes majeur")
 
 else:
